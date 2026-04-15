@@ -6,7 +6,7 @@ async function main() {
       host: "mysql-fecc38f-databaseproject.b.aivencloud.com",
       port: 14683,
       user: "avnadmin",
-      password: process.env.DB_PASSWORD
+      password: process.env.DB_PASSWORD, 
       database: "defaultdb",
       ssl: {
         rejectUnauthorized: false
